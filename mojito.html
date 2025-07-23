@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="Images/cheif.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <title>Restaurant</title>
+</head>
+
+<body class="bg-no-repeat bg-black" >
+    <div class="container-fluid m-2 bg-dark shadow-lg rounded ">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-white">🍽 Healthy <span class="text-warning">Spot</span></h1>
+            </div>
+            <div class="col p-3">
+                <ul class="list-inline text-end m-2 fw-bold">
+                    <li class="list-inline-item "><a class="text-warning  text-decoration-none "
+                            href="Home.html">Home</a></li>
+                    <li class="list-inline-item"><a class="text-warning text-decoration-none" href="Menu.html">Menu</a>
+                    </li>
+                    <li class="list-inline-item"><a class="text-warning text-decoration-none" href="About.html">About Us</a></li>
+                    <li class="list-inline-item"><a class="text-warning text-decoration-none" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="text-white  text-uppercase mx-5   ">
+    <h5 class="display-4 fw-bold">Mo<span class="text-warning">jit</span>o's</h5>
+</div>
+       <div class="search-box" id="search-box">
+<input style="font-size: larger; width: 90%;height: auto;margin-left: 30px ;margin-top: 10px;border-radius: 10px;border: none;padding: 10px;" id="search" type="text" placeholder="Search">
+<button style="padding: 10px;border-radius: 10px;margin-left: 10px;border: none;  box-shadow:  rgb(0, 0, 0) 0px 3px 20px 3px;" >🔍</button>
+   </div>
+    <div class="container-fluid">
+        <div class="row g-5 text-center m-2">
+            <!-- card-1 -->
+            <div class="col-sm-3">
+                <div class="card bg-black my-2  border-0 ">
+                    <img class=" m-2   card-img-top rounded img-hover  " src="Images/mojito/blue mint.jpeg">
+                    <div class="card-body">
+                        <h1 class=" card-title fw-small fw-bold text-uppercase text-light display-6">B<span class="text-warning">lu</span>e M<span class="text-warning">in</span>t</h1>
+                        <p class="card-text text-secondary">Cool mint with a splash of blue – fresh and fun to drink.
+A chill, colorful twist on the classic mojito.</p>
+                        <h5 class="fw-bold text-warning">$3</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- card-2 -->
+        <div class="col-sm-3">
+             <div class="card border-0 bg-transparent mt-3" >
+              <img class="card-img-top   rounded img-hover" src="Images/mojito/grapes mojito.jpeg">
+              <div class="card-body">
+              <h1 class="card-title text-light text-uppercase fw-bold m-2">Gr<span class="text-warning">ap</span>es </h1>
+              <p class="card-text text-secondary"> Juicy grapes and mint come together for a bold, fresh flavor.
+Sweet and cool – a drink full of flavor.</p>
+              <h5 class="fw-bold text-warning">$6</h5>
+              </div>
+             </div>
+        </div>
+        <!-- card-3 -->
+            <div class="col-sm-3">
+             <div class="card border-0 bg-transparent mt-3" >
+              <img class="card-img-top   rounded img-hover" src="Images/mojito/Mojito  lemon.jpeg">
+              <div class="card-body">
+              <h1 class="card-title text-light text-uppercase fw-bold m-2">Le<span class="text-warning">mo</span>n </h1>
+              <p class="card-text text-secondary">Tangy lemon mixed with mint for a zesty, fresh taste.
+Perfect for a bright and refreshing sip.</p>
+              <h5 class="fw-bold text-warning">$2</h5>
+              </div>
+             </div>
+        </div>
+        <!-- card-4 -->
+            <div class="col-sm-3">
+             <div class="card border-0 bg-transparent mt-3" >
+              <img class="card-img-top rounded img-hover" src="Images/mojito/Mojito Strawberry.jpeg">
+              <div class="card-body">
+              <h1 class="card-title text-light text-uppercase fw-bold m-2">Be<span class="text-warning">rr</span>y</h1>
+              <p class="card-text text-secondary">Sweet strawberries with mint and lime – fruity and fresh.
+A tasty, pink twist you’ll love.</p>
+              <h5 class="fw-bold text-warning">$4</h5>
+              </div>
+             </div>
+        </div>
+        
+        </div> 
+    </div>
+        <style>
+        .img-hover
+        {
+            transition: all 0.5s ease-in-out;
+        }
+  .img-hover:hover{
+    transform: scale(1.1);
+  }
+    </style>
+    <script src="menu.js"></script>
+    </body>
+</html>
