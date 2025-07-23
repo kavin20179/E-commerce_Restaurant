@@ -12,7 +12,7 @@ An interactive menu section created using HTML, Bootstrap, and JavaScript, displ
 
 <img width="1900" height="848" alt="Screenshot 2025-07-23 155207" src="https://github.com/user-attachments/assets/688f954c-266f-49e0-b016-3bdf65676786" />
 
-# collection
+# Collection
 
 <img width="1891" height="840" alt="Screenshot 2025-07-23 155236" src="https://github.com/user-attachments/assets/82cc6c5e-7791-499a-a1e3-b14703ef1ad3" />
 
